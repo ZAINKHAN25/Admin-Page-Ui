@@ -47,7 +47,7 @@ function Sidebar() {
                     )
                 })}
             </div>
-            <button className='logoutdiv'>Logout</button>
+            <button className='logoutdiv'><span>Logout</span> <i class="fa-solid fa-right-from-bracket ms-2"></i></button>
         </div>
     )
 }

@@ -1,16 +1,18 @@
 .sidebarWrapper {
-    width: 20vw;
-    background-color: #dfdfdf;
+    width: 18vw;
+    background-color: #f0f0f0;
     height: 100vh;
     display: flex;
     justify-content: start;
     flex-direction: column;
     align-items: center;
+    position: fixed;
+    left: 0;
 }
 
 .sidebarimg {
-    width: 80%;
-    margin-top: 15px;
+    width: 75%;
+    margin-top: 20px;
     /* background-color: red; */
 }
 
@@ -25,7 +27,7 @@
     font-weight: 500;
     border-radius: 10px;
     font-size: larger;
-    width: 95%;
+    width: 98%;
     transition: all .3s;
 }
 
@@ -46,8 +48,19 @@
 }
 
 .logoutdiv{
-    width: 80%;
-    border-radius: 12px;
+    width: 90%;
+    border: none;
+    background-color: #0873b9;
+    color: white;
+    font-weight: bold;
+    font-size: large;
+    border-radius: 8px;
+    padding: 5px 0;
     margin-top: auto;
-    margin-bottom: 30px;   
+    margin-bottom: 30px;
+    transition: all .5s; 
+}
+
+.logoutdiv:hover{
+    background-color: #025c8d;
 }

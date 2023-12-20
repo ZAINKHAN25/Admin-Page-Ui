@@ -1,0 +1,36 @@
+.loading-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.loading-circle {
+    border-radius: 50%;
+    margin: auto;
+    border: 12px solid #EAF0F6;
+    border-radius: 50%;
+    border-top: 12px solid #0873b9;
+    width: 200px;
+    height: 200px;
+    animation: spinner 1s linear infinite;
+    padding: 10px;
+}
+
+.loading-image {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    position: absolute;
+}
+
+
+@keyframes spinner {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}

@@ -7,7 +7,7 @@ function Home() {
   return (
     <>
       <Sidebar />
-      <div>Home</div>
+      
     </>
   )
 }

@@ -8,6 +8,11 @@ function Sidebar() {
 
     let allsidebardata = [
         {
+            sidename: "View Attendence",
+            addresofside: "/view-attendence",
+            icon: `fa-solid fa-users-viewfinder`
+        },
+        {
             sidename: "Add Student",
             addresofside: "/add-student",
             icon: `fa-solid fa-user-plus`

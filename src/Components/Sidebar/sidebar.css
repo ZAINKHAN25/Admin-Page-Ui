@@ -17,7 +17,7 @@
 }
 
 .singlesidebardiv {
-    margin: 10px auto;
+    margin: 5px auto;
     padding: 10px 10px;
     /* flex */
     display: flex;
@@ -27,7 +27,7 @@
     font-weight: 500;
     border-radius: 10px;
     font-size: larger;
-    width: 98%;
+    width: 95%;
     transition: all .3s;
 }
 
@@ -48,7 +48,7 @@
 }
 
 .logoutdiv{
-    width: 90%;
+    width: 95%;
     border: none;
     background-color: #0873b9;
     color: white;

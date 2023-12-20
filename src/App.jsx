@@ -10,6 +10,7 @@ import AddCourse from './pages/AddCourse/index.jsx';
 import GetStudents from './pages/GetStudents/index.jsx';
 import GetCourses from './pages/GetCourses/index.jsx';
 import ProfilePage from './pages/ProfilePage/index.jsx';
+import ViewAttendence from './pages/ViewAttendence/index.jsx';
 
 function App() {
   const [isLoading, setIsLoading] = useState(true);
@@ -41,6 +42,7 @@ function App() {
             <Route path="/get-students" element={<GetStudents />} />
             <Route path="/get-courses" element={<GetCourses />} />
             <Route path="/admin-profile" element={<ProfilePage />} />
+            <Route path="/view-attendence" element={<ViewAttendence />} />
           </>
         )}
       </Routes>

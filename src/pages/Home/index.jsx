@@ -5,7 +5,10 @@ import Sidebar from "../../Components/Sidebar/index.jsx";
 
 function Home() {
   return (
-    <div>Home</div>
+    <>
+      <Sidebar />
+      <div>Home</div>
+    </>
   )
 }
 

@@ -8,19 +8,21 @@
 .loading-circle {
     border-radius: 50%;
     margin: auto;
-    border: 12px solid #EAF0F6;
+    border-bottom: 8px solid #8ac642;
+    padding: 10%;
+    border-right: 5px solid #8ac642;
     border-radius: 50%;
-    border-top: 12px solid #0873b9;
-    width: 200px;
-    height: 200px;
+    border-top: 8px solid #0873b9;
+    border-left: 5px solid #0873b9;
+    width: 230px;
+    height: 230px;
     animation: spinner 1s linear infinite;
-    padding: 10px;
 }
 
 .loading-image {
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
+    width: 170px;
+    height: 150px;
+    /* border-radius: 50%; */
     position: absolute;
 }
 

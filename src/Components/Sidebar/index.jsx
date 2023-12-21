@@ -8,9 +8,14 @@ function Sidebar() {
 
     let allsidebardata = [
         {
-            sidename: "View Attendence",
+            sidename: "See Attendence",
             addresofside: "/view-attendence",
             icon: `fa-solid fa-users-viewfinder`
+        },
+        {
+            sidename: "See Students",
+            addresofside: "/get-students",
+            icon: `fa-solid fa-users`
         },
         {
             sidename: "Add Student",
@@ -23,12 +28,7 @@ function Sidebar() {
             icon: `fa-solid fa-book-medical`
         },
         {
-            sidename: "Get Students",
-            addresofside: "/get-students",
-            icon: `fa-solid fa-users`
-        },
-        {
-            sidename: "Get Courses",
+            sidename: "Search Courses",
             addresofside: "/get-courses",
             icon: `fa-solid fa-book`
         },

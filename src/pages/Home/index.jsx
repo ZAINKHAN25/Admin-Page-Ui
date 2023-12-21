@@ -10,6 +10,7 @@ function Home() {
       <Sidebar />
       <div className='navbarofhome'>
         <Navbar />
+        {/* < */}
       </div>
     </div>
   )

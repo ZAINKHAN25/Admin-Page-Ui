@@ -3,7 +3,7 @@ import "./sidebar.css";
 import smitLogo from '../../Images/Smit-logo.png'
 import { useNavigate } from 'react-router-dom';
 
-function Sidebar() {
+function Sidebar({ currentPage }) {
     const navigate = useNavigate(); // Rename the variable to 'navigate'
 
     let allsidebardata = [
@@ -14,8 +14,13 @@ function Sidebar() {
         },
         {
             sidename: "See Students",
-            addresofside: "/get-students",
+            addresofside: "/",
             icon: `fa-solid fa-users`
+        },
+        {
+            sidename: "See Courses",
+            addresofside: "/get-courses",
+            icon: `fa-solid fa-book`
         },
         {
             sidename: "Add Student",
@@ -26,11 +31,6 @@ function Sidebar() {
             sidename: "Add Course",
             addresofside: "/add-course",
             icon: `fa-solid fa-book-medical`
-        },
-        {
-            sidename: "Search Courses",
-            addresofside: "/get-courses",
-            icon: `fa-solid fa-book`
         },
         // {
         //     sidename: "Profile Page",
@@ -44,6 +44,9 @@ function Sidebar() {
             <img src={smitLogo} className='sidebarimg' alt="Smit Logo" />
             <div className='divofsidebardivs'>
                 {allsidebardata.map((x, i) => {
+                    if (x.sidename === currentPage) {
+                        return (<></>)
+                    }
                     return (
                         <div key={i} onClick={() => navigate(x.addresofside)} className='singlesidebardiv'>
                             <i className={x.icon}></i>

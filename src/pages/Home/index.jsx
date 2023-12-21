@@ -8,7 +8,7 @@ import AllStudents from "../../Components/AllStudents/index.jsx";
 function Home() {
   return (
     <div className="d-flex homeWrapper">
-      <Sidebar />
+      <Sidebar currentPage={"See Students"} />
       <div className='navbarofhome'>
         <Navbar />
         <AllStudents />

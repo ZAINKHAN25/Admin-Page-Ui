@@ -1,20 +1,20 @@
-.viewAttendanceWrapper {
+.AllCoursesWrapper {
     background-color: #f0f0f0;
     color: #0873b9;
     border-radius: 10px;
     box-shadow: 1px 1px 20px rgba(0,0, 0,30%);
 }
 
-.headingAreaviewAttendance {
+.headingAreaAllCourses {
     font-weight: bold;
     font-size: 20px;
     margin-bottom: 15px;
 }
 
-.singledivofviewAttendance{
+.singledivofAllCourses{
     transition: all .5s;
 }
 
-.singledivofviewAttendance:hover {
+.singledivofAllCourses:hover {
     text-decoration: underline;
 }

@@ -7,7 +7,6 @@ import Home from './pages/Home/index.jsx';
 import Login from './pages/Login/index.jsx';
 import AddStudent from './pages/AddStudent/index.jsx';
 import AddCourse from './pages/AddCourse/index.jsx';
-import GetStudents from './pages/GetStudents/index.jsx';
 import GetCourses from './pages/GetCourses/index.jsx';
 import ProfilePage from './pages/ProfilePage/index.jsx';
 import ViewAttendence from './pages/ViewAttendence/index.jsx';
@@ -36,13 +35,12 @@ function App() {
         ) : (
           <>
             <Route index element={<Home />} />
+            <Route path="/view-attendence" element={<ViewAttendence />} />
+            <Route path="/get-courses" element={<GetCourses />} />
             <Route path="/login" element={<Login />} />
             <Route path="/add-student" element={<AddStudent />} />
             <Route path="/add-course" element={<AddCourse />} />
-            <Route path="/get-students" element={<GetStudents />} />
-            <Route path="/get-courses" element={<GetCourses />} />
             <Route path="/admin-profile" element={<ProfilePage />} />
-            <Route path="/view-attendence" element={<ViewAttendence />} />
           </>
         )}
       </Routes>

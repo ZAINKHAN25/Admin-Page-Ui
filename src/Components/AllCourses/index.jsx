@@ -18,7 +18,7 @@ function AllCourses() {
                         <span style={{ flex: 1 }}>{course.SirName}</span>
                         <span style={{ flex: 1 }}>{course.CourseName}</span>
                         <span style={{ flex: 1 }}>{course.CourseTiming}</span>
-                        <span style={{ flex: 1 }}>{course.CourseDays.map(x=> (<span>{x}, </span>) )}</span>
+                        <span style={{ flex: 1 }}>{course.CourseDays.map((x, i) => (i + 1) === course.CourseDays.length ? (<span>{x}</span>) : (<span>{x}, </span>))}</span>
                     </div>
                 ))}
             </div>

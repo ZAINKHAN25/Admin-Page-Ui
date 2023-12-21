@@ -3,6 +3,7 @@ import './Home.css';
 
 import Sidebar from "../../Components/Sidebar/index.jsx";
 import Navbar from "../../Components/Navbar/index.jsx";
+import AllStudents from "../../Components/AllStudents/index.jsx";
 
 function Home() {
   return (
@@ -10,7 +11,7 @@ function Home() {
       <Sidebar />
       <div className='navbarofhome'>
         <Navbar />
-        {/* < */}
+        <AllStudents />
       </div>
     </div>
   )

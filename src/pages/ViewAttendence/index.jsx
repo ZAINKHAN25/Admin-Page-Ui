@@ -11,6 +11,7 @@ function Home() {
       <Sidebar currentPage={"See Attendence"} />
       <div className='navbarofhome'>
         <Navbar />
+        <h2 className='text-center' style={{color: "#0873b9"}}>All Attendance</h2>
         <ViewAttendance />
       </div>
     </div>

@@ -8,9 +8,10 @@ import AllCourses from "../../Components/AllCourses/index.jsx";
 function GetCourses() {
   return (
     <div className="d-flex GetCoursesWrapper">
-      <Sidebar currentPage={"See Students"} />
+      <Sidebar currentPage={"See Courses"} />
       <div className='navbarofGetCourses'>
         <Navbar />
+        <h2 className='text-center' style={{color: "#0873b9"}}>All Courses</h2>
         <AllCourses />
       </div>
     </div>

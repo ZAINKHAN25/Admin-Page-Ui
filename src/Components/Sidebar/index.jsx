@@ -55,7 +55,7 @@ function Sidebar({ currentPage }) {
                     )
                 })}
             </div>
-            <button className='logoutdiv'><span>Logout</span> <i className="fa-solid fa-right-from-bracket ms-2"></i></button>
+            <button onClick={() => navigate("/login")} className='logoutdiv'><span>Logout</span> <i className="fa-solid fa-right-from-bracket ms-2"></i></button>
         </div>
     )
 }

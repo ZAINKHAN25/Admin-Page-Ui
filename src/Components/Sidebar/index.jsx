@@ -45,7 +45,7 @@ function Sidebar({ currentPage }) {
             <div className='divofsidebardivs'>
                 {allsidebardata.map((x, i) => {
                     if (x.sidename === currentPage) {
-                        return (<></>)
+                        return (<span key={i}></span>)
                     }
                     return (
                         <div key={i} onClick={() => navigate(x.addresofside)} className='singlesidebardiv'>
@@ -55,7 +55,7 @@ function Sidebar({ currentPage }) {
                     )
                 })}
             </div>
-            <button className='logoutdiv'><span>Logout</span> <i class="fa-solid fa-right-from-bracket ms-2"></i></button>
+            <button className='logoutdiv'><span>Logout</span> <i className="fa-solid fa-right-from-bracket ms-2"></i></button>
         </div>
     )
 }

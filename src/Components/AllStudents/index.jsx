@@ -32,6 +32,8 @@ function AllStudents() {
                     </div>
                 </div>
             </div>
+
+            
             <div className="headingAreaAllStudents d-flex px-3">
                 <span style={{ flex: 0.3 }}>S/no:</span>
                 <span style={{ flex: 1 }}>Student Name:</span>

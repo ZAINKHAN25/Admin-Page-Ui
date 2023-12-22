@@ -9,7 +9,7 @@ function Navbar({ home }) {
         <div className='d-flex navbarwrapper'>
             <div className='fw-bold fs-5'>
                 {home === true ? (
-                    <span onClick={() => navigateTo('/')}> {true && "<"} Home</span>
+                    <span style={{cursor: "pointer"}} onClick={() => navigateTo('/')}> {true && "<"} Home</span>
                 ) : (
                     'Hello, Zain👋'
                 )}

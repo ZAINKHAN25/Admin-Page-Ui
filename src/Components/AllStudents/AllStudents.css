@@ -13,6 +13,7 @@
 
 .singledivofallstudents{
     transition: all .5s;
+    cursor: pointer;
 }
 
 .singledivofallstudents:hover {

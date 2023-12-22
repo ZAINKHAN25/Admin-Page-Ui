@@ -13,6 +13,7 @@
 
 .singledivofAllCourses{
     transition: all .5s;
+    cursor: pointer;
 }
 
 .singledivofAllCourses:hover {

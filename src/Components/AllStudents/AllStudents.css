@@ -19,3 +19,11 @@
 .singledivofallstudents:hover {
     text-decoration: underline;
 }
+
+.seestudentmodalimg{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    padding: 5px;
+    border: 1px solid black;
+}
